@@ -4,6 +4,8 @@ import pandas as pd
 import random
 import time
 from io import BytesIO
+random.seed(42)
+np.random.seed(42)
 
 # ==========================================
 # 1. KONFIGURASI HALAMAN & UI
